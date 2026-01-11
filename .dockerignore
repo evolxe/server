@@ -46,9 +46,6 @@ Thumbs.db
 .env.backup
 .env.local
 
-# Examples (not needed in production)
-examples/
-
 # Build artifacts
 build/
 vendor/  # Will be installed in Docker

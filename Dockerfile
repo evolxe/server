@@ -11,7 +11,7 @@ RUN apk add --no-cache \
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
 # Set working directory
-WORKDIR /app
+WORKDIR .
 
 # Copy composer files first for better caching
 COPY composer.json composer.lock ./
